@@ -1,0 +1,5 @@
+<h1>Instruments Index</h1>
+
+<% @instruments.each do |instrument| %>
+  <p><%= "#{instrument.name} || Classification: #{instrument.classification}" %></p>
+  <% end %>
